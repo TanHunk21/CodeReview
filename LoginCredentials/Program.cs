@@ -15,8 +15,8 @@ namespace LoginCredentials
              * If the login or password are incorrect dispay 'try again'
              
              */
-            Login;
-            Password;
+            string Login;
+            string Password;
             Console.WriteLine("Login: ");
             Login = Console.ReadLine();
             Console.WriteLine("Password: ");

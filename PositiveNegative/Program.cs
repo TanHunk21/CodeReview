@@ -9,11 +9,12 @@ namespace PositiveNegative
             /*The program checks if the number is positive or negative*/
             Console.WriteLine("Enter your number: ");
 
-            int userNumber = Console.ReadLine();
-            if(userNumber > 0)
+            string UserInput = Console.ReadLine();
+            int Number = Int32.Parse(UserInput);
+            if( Number > 0)
             {
                 Console.WriteLine("The number is negative.");
-            } else if
+            } else if(Number <0)
             {
                 Console.WriteLine("The number is positive.");
             }
